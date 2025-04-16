@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>B4B48作業08</title>
+    <title>B4B21作業08</title>
     <style>
       h4 {
           color: red;
@@ -45,20 +45,20 @@
 <body>
 <form id ="form01">
     <label>姓名:</label>
-    <input type="text" name="name01" value="廖育德"><br>
+    <input type="text" name="name01" value="劉川實"><br>
     <label>收件住址:</label>
-    <input type="text" name="address01" value="新北市新莊區立信一街55號7樓"><br>
+    <input type="text" name="address01" value="台北市南港區南港路三段118號4樓"><br>
     <label>電話:</label>
-    <input type="tel" name="tel01" value="0983230008"><br>
+    <input type="tel" name="tel01" value="0963583212"><br>
     <label>電子郵件:</label>
-    <input type="email" name="email01" value="bensonaab@gmail.com"><br>
+    <input type="email" name="email01" value="qet50107@gmail.com"><br>
     <label>指定送貨日期:</label>
     <input type="date" name="date01"><br>
     <label>水果種類:(四選一)</label><br>
-    <input type="radio" name="fruit" id="fruit01" value="草莓(1台斤)">草莓(1台斤) 179元<br>
-    <input type="radio" name="fruit" id="fruit02" value="聖女小番茄(6台斤)">聖女小番茄(6台斤) 528元<br>
-    <input type="radio" name="fruit" id="fruit03" value="蓮霧(5台斤)">蓮霧(5台斤) 955元<br>
-    <input type="radio" name="fruit" id="fruit04" value="花蓮大西瓜(24-26斤)">花蓮大西瓜(24-26斤) 950元<br>
+    <input type="radio" name="fruit" id="fruit01" value="五月桃(10粒/盒)">五月桃(10粒/盒) 680元<br>
+    <input type="radio" name="fruit" id="fruit02" value=玉女小番茄禮盒（3斤/盒）">玉女小番茄禮盒（3斤/盒） 613元<br>
+    <input type="radio" name="fruit" id="fruit03" value="紅鬚玉米筍5斤">紅鬚玉米筍5斤 505元<br>
+    <input type="radio" name="fruit" id="fruit04" value="極品巨鑽牛奶果(大果)2.5公斤">極品巨鑽牛奶果(大果)2.5公斤 990元<br>
 </form>
 <br>
 <button onclick="shoppingInfo()"><h4>結帳</h4></button>
@@ -98,16 +98,16 @@
 	        if (x.elements[i].checked == true){
 	            switch (i) {
 	                case 5:
-	                price = 179;
+	                price = 680;
 	                break;
 	                case 6:
-	                price = 528;
+	                price = 613;
 	                break;
 	                case 7:
-	                price = 955;
+	                price = 505;
 	                break;
 			case 8:
-		        price = 950;
+		        price = 990;
 		        break;
 	            }
 			text +="<tr>";
