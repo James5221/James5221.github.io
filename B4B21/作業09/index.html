@@ -21,13 +21,13 @@
     電話:<input type="tel" name="tel01" value="0963583212"><br>
     電子郵件:<input type="email" name="email01" value="qet50107@gmail.com"><br>
     指定送貨日期:<input type="date" name="date01"><br>
-    水果種類:<br><input type="checkbox" name="fruit" id="fruit01" value="五月桃（10粒／盒）">五月桃（10粒／盒）680元;
+    水果種類:<br><input type="checkbox" name="fruit" id="fruit01" value="五月桃(10粒／盒)">五月桃（10粒／盒）680元;
     購買數量:<input type="number" name="number01"><br>
-    <input type="checkbox" name="fruit" id="fruit02" value="玉女小番茄禮盒（3斤/盒）">玉女小番茄禮盒（3斤/盒） 613元；
+    <input type="checkbox" name="fruit" id="fruit02" value="玉女小番茄禮盒(3斤/盒)">玉女小番茄禮盒（3斤/盒） 613元；
     購買數量:<input type="number" name="number02"><br>
     <input type="checkbox" name="fruit" id="fruit03" value="紅鬚玉米筍(5斤)">紅鬚玉米筍5斤 505元;
     購買數量:<input type="number" name="number03"><br>
-    <input type="checkbox" name="fruit" id="fruit04" value="極品巨鑽牛奶果（大果）2.5公斤">極品巨鑽牛奶果（大果）2.5公斤 990元;
+    <input type="checkbox" name="fruit" id="fruit04" value="極品巨鑽牛奶果(大果)2.5公斤">極品巨鑽牛奶果(大果)2.5公斤 990元;
     購買數量:<input type="number" name="number04"><br>
 </form>
 <button onclick="shoppingInfo()"><h4>結帳</h4></button>
@@ -42,10 +42,10 @@
 			text += "價格小計:" + this.Price *no + "元<br>";
 		};
 	};
-	var fruit01 = new fruit("五月桃（10粒／盒)",ˊ680, 0);
-	var fruit02 = new fruit("玉女小番茄禮盒（3斤/盒）",613, 0);
+	var fruit01 = new fruit("五月桃(10粒／盒)",ˊ680, 0);
+	var fruit02 = new fruit("玉女小番茄禮盒(3斤/盒)",613, 0);
 	var fruit03 = new fruit("紅鬚玉米筍(5斤)",505, 0);
-	var fruit04 = new fruit("極品巨鑽牛奶果（大果）(2.5公斤)",990, 0)
+	var fruit04 = new fruit("極品巨鑽牛奶果(大果)(2.5公斤)",990, 0)
 
 function shoppingInfo() {
 	var x = document.getElementById("form01");
