@@ -25,7 +25,7 @@
     購買數量:<input type="number" name="number01"><br>
     <input type="checkbox" name="fruit" id="fruit02" value="玉女小番茄禮盒（3斤/盒）">玉女小番茄禮盒（3斤/盒） 613元；
     購買數量:<input type="number" name="number02"><br>
-    <input type="checkbox" name="fruit" id="fruit03" value="紅鬚玉米筍5斤">紅鬚玉米筍5斤 505元;
+    <input type="checkbox" name="fruit" id="fruit03" value="紅鬚玉米筍(5斤)">紅鬚玉米筍5斤 505元;
     購買數量:<input type="number" name="number03"><br>
     <input type="checkbox" name="fruit" id="fruit04" value="極品巨鑽牛奶果（大果）2.5公斤">極品巨鑽牛奶果（大果）2.5公斤 990元;
     購買數量:<input type="number" name="number04"><br>
@@ -44,8 +44,8 @@
 	};
 	var fruit01 = new fruit("五月桃（10粒／盒)",ˊ680, 0);
 	var fruit02 = new fruit("玉女小番茄禮盒（3斤/盒）",613, 0);
-	var fruit03 = new fruit("紅鬚玉米筍5斤)",505, 0);
-	var fruit04 = new fruit("極品巨鑽牛奶果（大果）2.5公斤)",990, 0)
+	var fruit03 = new fruit("紅鬚玉米筍(5斤)",505, 0);
+	var fruit04 = new fruit("極品巨鑽牛奶果（大果）(2.5公斤)",990, 0)
 
 function shoppingInfo() {
 	var x = document.getElementById("form01");
@@ -84,7 +84,7 @@ for (i =5; i<= 11; i++){
 	      }
 	 }
 }
-	text += "價格合計:" + sumToPay +	"元<br>";
+	text += "價格合計:" + sumToPay + "元<br>";
 	document.getElementById("demo").innerHTML = text;
 	}
 
