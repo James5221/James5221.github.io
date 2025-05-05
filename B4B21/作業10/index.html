@@ -40,17 +40,17 @@
 <body>
 <form id="form01">
 	姓名: <input type="text" name="name01" value="劉川實" id="name"><br>
-	收件地址: <input type="text" name="address01" value="新北市新莊區立信一街57號8樓" id="address"><br>
-	電話: <input type="tel" name="tel01" value="0983230008" id="tel"><br>
-	電子郵件: <input type="email" name="email01" value="bensonaab@gmail.com" id="email"><br>
+	收件地址: <input type="text" name="address01" value="台北市南港區南港路三段118號4樓" id="address"><br>
+	電話: <input type="tel" name="tel01" value="0963583212" id="tel"><br>
+	電子郵件: <input type="email" name="email01" value="qet50107@gmail.com" id="email"><br>
 	指定送貨日期: <input type="date" name="date01" id="date"><br>
-	水果種類: <br><input type="checkbox" name="fruit" id="fruit01" value="草莓(1台斤)">草莓(1台斤)179元;
+	水果種類: <br><input type="checkbox" name="fruit" id="fruit01" value="五月桃(10粒／盒)">五月桃(10粒／盒)680元;
 	購買數量: <input type="number" name="number01" id="fruit01Num"><br>
-	<input type="checkbox" name="fruit" id="fruit02" value="聖女小番茄(6台斤)">聖女小番茄(6台斤)528元;
+	<input type="checkbox" name="fruit" id="fruit02" value="玉女小番茄禮盒(3斤/盒)">玉女小番茄禮盒(3斤/盒)613元;
 	購買數量: <input type="number" name="number02" id="fruit02Num"><br>
-	<input type="checkbox" name="fruit" id="fruit03" value="蓮霧(5台斤)">蓮霧(5台斤)955元;
+	<input type="checkbox" name="fruit" id="fruit03" value="紅鬚玉米筍(5斤)">紅鬚玉米筍(5斤)505元;
 	購買數量: <input type="number" name="number03" id="fruit03Num"><br>
-	<input type="checkbox" name="fruit" id="fruit04" value="花蓮大西瓜(24~26斤)">花蓮大西瓜(24~26斤)950元;
+	<input type="checkbox" name="fruit" id="fruit04" value="極品巨鑽牛奶果(大果)(2.5公斤)">極品巨鑽牛奶果(大果)(2.5公斤)990元;
 	購買數量: <input type="number" name="number04" id="fruit04Num"><br>
 </form>
 
@@ -68,10 +68,10 @@
         text += "</tr>";
       };
     };
-    var fruit01 = new fruit("草莓(1台斤)",179, 0);
-    var fruit02 = new fruit("聖女小番茄(6台斤)",528, 0);
-    var fruit03 = new fruit("蓮霧(5台斤)",955, 0);
-    var fruit04 = new fruit("花蓮大西瓜(24~26斤)",950, 0);
+    var fruit01 = new fruit("五月桃(10粒／盒)",680, 0);
+    var fruit02 = new fruit("玉女小番茄禮盒(3斤/盒)",613, 0);
+    var fruit03 = new fruit("紅鬚玉米筍(5斤)",505, 0);
+    var fruit04 = new fruit("極品巨鑽牛奶果(大果)(2.5公斤)",990, 0);
     var isSubmitted = false; // 用來追蹤是否已經提交過資料
 
     function shoppingInfo() {
@@ -94,10 +94,10 @@
             text += "</tr>";
         }
 
-        fruit01 = new fruit("草莓(1台斤)", 179,parseInt(document.getElementById("fruit01Num").value));
-        fruit02 = new fruit("聖女小番茄(6台斤)", 528,parseInt(document.getElementById("fruit02Num").value));
-        fruit03 = new fruit("蓮霧(5台斤)",955,parseInt(document.getElementById("fruit03Num").value));
-        fruit04 = new fruit("花蓮大西瓜(24~26斤)",950,parseInt(document.getElementById("fruit04Num").value));
+        fruit01 = new fruit("五月桃(10粒／盒)", 680,parseInt(document.getElementById("fruit01Num").value));
+        fruit02 = new fruit("玉女小番茄禮盒(3斤/盒)", 613,parseInt(document.getElementById("fruit02Num").value));
+        fruit03 = new fruit("紅鬚玉米筍(5斤)",505,parseInt(document.getElementById("fruit03Num").value));
+        fruit04 = new fruit("極品巨鑽牛奶果(大果)(2.5公斤)",990,parseInt(document.getElementById("fruit04Num").value));
 
     for (i=5; i <=11; i++) {
         if (x.elements[i].checked === true) {
